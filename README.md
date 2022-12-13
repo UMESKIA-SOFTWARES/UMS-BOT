@@ -1,4 +1,4 @@
-# Umeskia Chat Bot
+# U-Bot
 
 To create a chatbot with PHP, you will first need to install PHP on your system and set up a development environment. You can then use the PHP programming language to create a chatbot by using various libraries and frameworks that are available.
 
