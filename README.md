@@ -1,4 +1,4 @@
-# U-Bot
+# Mr U-Bot
 
 To create a chatbot with PHP, you will first need to install PHP on your system and set up a development environment. You can then use the PHP programming language to create a chatbot by using various libraries and frameworks that are available.
 
@@ -33,6 +33,13 @@ $botman->hears('hello', function($bot) {
 $botman->listen();
 
 ```
+
 This code creates a new chatbot using the Botman framework and defines a greeting message that the chatbot will respond with when it receives the message "hello". You can add more functionality and logic to your chatbot by defining additional hears() and reply() statements in your PHP code.
 
-I hope this helps! Let me know if you have any other questions.
+Install Botman with composer
+
+To install Botman with composer, you will need to run the following command in your terminal:
+
+```bash
+composer global require "botman/installer"
+```
