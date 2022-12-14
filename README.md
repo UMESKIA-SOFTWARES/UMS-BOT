@@ -2,9 +2,9 @@
 
 UMS BOT is a chatbot that can be used to answer questions about Umeskia Softwares. It is built using the Botman framework and PHP.
 
-IMAGE OF MR U-Bot
+PHOTO OF UMS BOT
 
-<img src="img/bot.png" alt="UMS BOT">
+<img height="100" width="100"src="img/bot.png" alt="UMS BOT">
 
 To create a chatbot with PHP, you will first need to install PHP on your system and set up a development environment. You can then use the PHP programming language to create a chatbot by using various libraries and frameworks that are available.
 
