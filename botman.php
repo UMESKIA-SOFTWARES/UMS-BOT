@@ -1,26 +1,25 @@
 <?php
 
-use BotMan\BotMan\BotMan;
+require_once 'vendor/autoload.php';
+
+use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 use BotMan\BotMan\BotManFactory;
+use BotMan\BotMan\Cache\SymfonyCache;
 use BotMan\BotMan\Drivers\DriverManager;
 
-$config = [
-  // Your driver-specific configuration
-  // "telegram" => [
-  //    "token" => "TOKEN"
-  // ]
-];
+require_once('OnboardingConversation.php');
 
-// Load the driver(s) you want to use
-DriverManager::loadDriver(\BotMan\Drivers\Telegram\TelegramDriver::class);
+$config = [];
 
-// Create an instance
-$botman = BotManFactory::create($config);
+DriverManager::loadDriver(\BotMan\Drivers\Web\WebDriver::class);
 
-// Give the bot something to listen for.
-$botman->hears('hello', function (BotMan $bot) {
-  $bot->reply('Hello yourself.');
+$adapter = new FilesystemAdapter();
+
+$botman = BotManFactory::create($config, new SymfonyCache($adapter));
+
+$botman->hears('Hello', function ($bot) {
+
+  $bot->startConversation(new OnboardingConversation);
 });
 
-// Start listening
 $botman->listen();

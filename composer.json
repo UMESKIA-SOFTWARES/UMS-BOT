@@ -1,5 +1,7 @@
 {
     "require": {
-        "botman/botman": "^2.7"
+        "botman/botman": "^2.7",
+        "botman/driver-web": "^1.5",
+        "symfony/cache": "^6.0"
     }
 }

@@ -25,8 +25,12 @@ class ComposerStaticInit10703da64ed3f4ebe43f6dc9580971ac
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Contracts\\Service\\' => 26,
+            'Symfony\\Contracts\\Cache\\' => 24,
+            'Symfony\\Component\\VarExporter\\' => 30,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\HttpFoundation\\' => 33,
+            'Symfony\\Component\\Cache\\' => 24,
             'Spatie\\Macroable\\' => 17,
         ),
         'R' => 
@@ -41,7 +45,9 @@ class ComposerStaticInit10703da64ed3f4ebe43f6dc9580971ac
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
+            'Psr\\Cache\\' => 10,
         ),
         'O' => 
         array (
@@ -53,6 +59,7 @@ class ComposerStaticInit10703da64ed3f4ebe43f6dc9580971ac
         ),
         'B' => 
         array (
+            'BotMan\\Drivers\\Web\\' => 19,
             'BotMan\\BotMan\\' => 14,
         ),
     );
@@ -66,6 +73,18 @@ class ComposerStaticInit10703da64ed3f4ebe43f6dc9580971ac
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
+        'Symfony\\Contracts\\Service\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/service-contracts',
+        ),
+        'Symfony\\Contracts\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/cache-contracts',
+        ),
+        'Symfony\\Component\\VarExporter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-exporter',
+        ),
         'Symfony\\Component\\VarDumper\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
@@ -73,6 +92,10 @@ class ComposerStaticInit10703da64ed3f4ebe43f6dc9580971ac
         'Symfony\\Component\\HttpFoundation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
+        ),
+        'Symfony\\Component\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/cache',
         ),
         'Spatie\\Macroable\\' => 
         array (
@@ -106,9 +129,17 @@ class ComposerStaticInit10703da64ed3f4ebe43f6dc9580971ac
         array (
             0 => __DIR__ . '/..' . '/react/cache/src',
         ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Psr\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
         'Opis\\Closure\\' => 
         array (
@@ -117,6 +148,10 @@ class ComposerStaticInit10703da64ed3f4ebe43f6dc9580971ac
         'Mpociot\\Pipeline\\' => 
         array (
             0 => __DIR__ . '/..' . '/mpociot/pipeline/src',
+        ),
+        'BotMan\\Drivers\\Web\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/botman/driver-web/src',
         ),
         'BotMan\\BotMan\\' => 
         array (
