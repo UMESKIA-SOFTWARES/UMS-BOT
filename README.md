@@ -1,4 +1,4 @@
-# Mr U-Bot
+# UMS BOT
 
 UMS BOT is a chatbot that can be used to answer questions about Umeskia Softwares. It is built using the Botman framework and PHP.
 
