@@ -1,6 +1,6 @@
 var botmanWidget = {
   frameEndpoint: "chat.html",
-  introMessage: "Hi,  I am  UMS BOT. To get started, type 'hello'",
+  introMessage: "Hi,  I am  UMS BOT . To get started, type 'hello'",
   chatServer: "botman.php",
   title: "UMS BOT",
   mainColor: "Black",
